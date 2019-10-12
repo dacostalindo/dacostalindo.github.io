@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About me!</title>
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <form>
+
+
+      <br>
+      <h1>Add New Article</h1>
+      <br>
+      <div class="form-group">
+        <label for="formGroupExampleInput"><b>Article Title</b></label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Title">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2"><b>Author Name</b></label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Name">
+      </div>
+
+      <div class="form-row">
+        <div class="col">
+          <label for="formGroupExampleInput"><b>Upload Files:</b></label>
+          <div class="form-group">
+            <label for="exampleFormControlFile1"></label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+        </div>
+        <div class="col">
+            <div class="form-group">
+              <label for="formGroupExampleInput"><b>Pages</b></label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Academics</option>
+                <option>Entertainment</option>
+                <option>Lifestyle</option>
+                <option>Food</option>
+              </select>
+            </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+       <label for="comment"><b>Article Text</b>:</label>
+       <textarea class="form-control" rows="5" id="comment"></textarea>
+     </div>
+
+     <div class="form-row">
+
+
+       <div class="col">
+        <label for="comment"><b>Select Tag</b></label>
+        <br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">Python</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+          <label class="form-check-label" for="inlineCheckbox2">C++</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+          <label class="form-check-label" for="inlineCheckbox3">Java</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4" >
+          <label class="form-check-label" for="inlineCheckbox4">Scala</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5" >
+          <label class="form-check-label" for="inlineCheckbox5">Perl</label>
+        </div>
+       </div>
+
+
+       <div class="col">
+         <label for ="comment"><b>Visibility</b></label>
+         <br>
+         <div class ="btn-group btn-group-toggle" data-toggle="buttons">
+           <label class ="btn btn-secondary active">
+             <input type="radio" name="options" id="option1" autocomplete="off" checked> Public
+           </label>
+           <label class ="btn btn-secondary active">
+             <input type="radio" name="options" id="option2" autocomplete="off" checked> Private
+           </label>
+         </div>
+       </div>
+     </div>
+
+     <br>
+     <label for="coment"><b>Login to Finish Submitting</b></label>
+     <br>
+     <div class="row">
+       <div class="col">
+         <input type="text" class="form-control" placeholder="Username">
+       </div>
+       <div class="col">
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+      </div>
+    </div>
+    <br>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Remember me</label>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+
+
+
+
+
+
+  </body>
+</html>
